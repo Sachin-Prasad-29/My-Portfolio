@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Jeremy Erik Leong is a Front End Developer and designer that based in Kuala Lumpur, Malaysia"
+        />
+        <meta
+            name="keywords"
+            content="the one academy, toa, website, designer, developer, ui, ux, ui ux, user interface, user experience, ui design, ux design, malaysia, jeremy, erik, jeremy erik, jeremy erik leong"
+        />
+        <meta name="author" content="Jeremy Erik Leong" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sachin Prasad</title>
+        <link rel="icon" href="img/logo.svg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="scss/style.scss" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src='js/index.js'></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function() { 
+            emailjs.init('jO3YXlVaSKW0V3MAc');
+        })();
+    </script>
+        
+    </head>
+    <body>
+        <div id="loader">
+            <span class="dots"></span>
+            <span class="dots"></span>
+            <span class="dots"></span>
+        </div>
+        <main id="wrapper">
+            <header id="header">
+                <div class="header container">
+                    <nav class="nav-bar">
+                        <div class="logo">
+                            <a href="index.html" class="no-select logo"
+                                ><img src="img/logo.svg" alt="jeremy's logo"
+                            /></a>
+                        </div>
+                        <div class="nav-list">
+                            <label id="hamburger" class="no-select">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                            <ul class="mobile-menu">
+                                <li><a href="#about" data-after="About" class="no-select">About</a></li>
+                                <li><a href="#experience" data-after="Experience" class="no-select">Experience</a></li>
+                                <li><a href="#work" data-after="work" class="no-select">Projects</a></li>
+                                <li><a href="#contact" data-after="contact" class="no-select">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <section id="hero">
+                <div class="experience container hero container fadein">
+                    <div class="col-left">
+                        <br />
+                        <br />
+                        <br />
+                        <h3 style="font-family: 'Kalam', cursive; opacity: 0.5">&lt;html &gt;</h3>
+                        <h3 style="font-family: 'Kalam', cursive; opacity: 0.5">&lt;head &gt;</h3>
+                        <br />
+                        <h3>Hello, My name is</h3>
+                        <h1>Sachin Kumar Prasad.</h1>
+                        <span style="color: rgb(12, 221, 221); font-weight: 700">A Full Stack Developer </span>
+                        <p style="margin-bottom: 0px">
+                            I build interactive websites that run across platforms and devices.
+                        </p>
+                        <div class="btn">
+                            <button class="btn-resume">
+                                <a
+                                    href="https://drive.google.com/file/d/16j6CXLnztj2-OdohNh0m4Q5D83PQ8wBm/view?usp=sharing"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >Resume&emsp;<i class="fa-solid fa-circle-down"></i
+                                ></a>
+                            </button>
+                        </div>
+                        <a href="#about" class="no-select">
+                            <svg class="mouse stagger1" width="20" height="40" viewBox="0 0 40 77">
+                                <g id="scroll" transform="translate(-253 -787)">
+                                    <g
+                                        id="Rectangle_12"
+                                        data-name="Rectangle 12"
+                                        transform="translate(253 787)"
+                                        fill="none"
+                                        stroke="#5d9ce2"
+                                        stroke-width="4"
+                                    >
+                                        <rect width="40" height="77" rx="20" stroke="none" />
+                                        <rect x="2" y="2" width="36" height="73" rx="18" fill="none" />
+                                    </g>
+                                    <circle
+                                        class="scroll"
+                                        id="Ellipse_1"
+                                        data-name="Ellipse 1"
+                                        cx="11"
+                                        cy="11"
+                                        r="11"
+                                        transform="translate(262 798)"
+                                        fill="#5d9ce2"
+                                    />
+                                </g>
+                            </svg>
+                        </a>
+                        <br />
+                        <h3 style="font-family: 'Kalam', cursive; opacity: 0.5">&lt;/head &gt;</h3>
+                    </div>
+
+                    <div class="col-right">
+                        <img class="avatar" src="img/javascript-frameworks-animate.svg" alt="my-cartoon-avatar" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="about container reveal">
+                    <div class="col-left">
+                        <h3 style="font-family: 'Kalam', cursive; opacity: 0.5; color:#108bc9">&lt;body &gt;</h3>
+                        <h2 class="section-title">About Me.</h2>
+                        <p class="section-paragraph">
+                            Hello! I am a Full Stack developer & designer From Chhattisgarh, India. I enjoy building things that
+                            run on the Internet and Different Devices.
+                            <p class="section-paragraph">
+                             I take into consideration the user experience while writing reusable and efficient code.
+                            I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release.
+                            </p>
+                        </p>
+                        <h3 style='color: #CCD6F6;'>Technologies and Tools</h3>
+                        <p class="section-paragraph">Using a combination of cutting-edge technologies and reliable open-source software I build user-focused, performant apps and websites for smartphones, tablets, and desktops:</p>
+
+                        <ul>
+                            <li style="font-size: 20px; color: yellow">
+                                <i class="fa-brands fa-square-js"></i>&emsp;JavaScript
+                            </li>
+
+                            <li style="font-size: 20px; color: orange">
+                                <i class="fa-brands fa-html5"></i>&emsp;HTML-5
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(0, 89, 255)">
+                                <i class="fa-brands fa-css3-alt"></i>&emsp;CSS-3
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(0, 195, 255)">
+                                <i class="fa-brands fa-java"></i>&emsp;Java
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(10, 202, 10)">
+                                <i class="fa-brands fa-node-js"></i>&emsp;Node.js
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(240, 53, 53)">
+                                <i class="fa-solid fa-e"></i>&emsp;Express js
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(10, 179, 10)">
+                                <i class="fa-solid fa-leaf"></i>&emsp;MongoDb
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(0, 162, 255)">
+                                <i class="fa-brands fa-react"></i>&emsp;React js
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(82, 161, 82)">
+                                <i class="fa-brands fa-vuejs"></i>&emsp;Vue js
+                            </li>
+
+                            <li style="font-size: 20px; color: white">
+                                <i class="fa-brands fa-github"></i>&emsp;Git & GitHub
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(238, 101, 124)">
+                                <i class="fa-brands fa-sass"></i>&emsp;Sass
+                            </li>
+
+                            <li style="font-size: 20px; color: #108bc9">
+                                <i class="fa-solid fa-database"></i>&emsp;MySql
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(54, 54, 236)">
+                                <i class="fa-brands fa-bootstrap"></i>&emsp;Bootstrap
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(235, 220, 10)">
+                                <i class="fa-brands fa-python"></i>&emsp;Python
+                            </li>
+
+                            <li style="font-size: 20px; color: rgb(247, 142, 6)">
+                                <i class="fa-solid fa-fire"></i>&emsp;FireBase
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-right">
+                        <div class="about-image">
+                            <img src="img/my-pic.jpg" alt="my-profile-pic" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <div class="experience container reveal">
+                    <div class="col-left">
+                        <div class="experience-info">
+                            <h2 class="section-title">My Personal Journey.</h2>
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="year">Year</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="year">2022</td>
+                                    <td>
+                                        <span class="title"
+                                            ><i class="fa-solid fa-briefcase"></i>&emsp;Assistant System Engineer</span
+                                        >
+                                        <strong
+                                            ><br /><a href="https://www.tcs.com" target="_blank" class="no-select"
+                                                >@Tata Consultancy Services</a
+                                            ></strong
+                                        >
+                                        <div class="time">Oct 2021 - Oct 2022</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="year">2021</td>
+                                    <td>
+                                        <span class="title"
+                                            ><i class="fa-solid fa-graduation-cap"></i>&emsp;Bachelor of Technology in
+                                            Computer Science</span
+                                        >
+                                        <strong
+                                            ><br /><a href="https://jntuh.ac.in/" target="_blank" class="no-select"
+                                                >@Jawaharlal Nehru Technological University Hyderabad</a
+                                            ></strong
+                                        >
+                                        <div class="time">August 2017 - Sept 2021</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="year">2017</td>
+                                    <td>
+                                        <span class="title"
+                                            ><i class="fa-solid fa-school"></i>&emsp;10th - 12th Standard</span
+                                        >
+                                        <strong
+                                            ><br /><a
+                                                href="https://stvincentpallottikorba.com/"
+                                                target="_blank"
+                                                class="no-select"
+                                                >@St. Vincent Pallotti School Korba</a
+                                            ></strong
+                                        >
+                                        <div class="time">April 2014 - April 2017</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="btn">
+                            <button class="btn-resume">
+                                <a
+                                    href="https://drive.google.com/file/d/16j6CXLnztj2-OdohNh0m4Q5D83PQ8wBm/view?usp=sharing"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >Resume&emsp;<i class="fa-solid fa-circle-down"></i
+                                ></a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-right">
+                        <img class="avatar" src="img/investment-data-animate.svg" alt="my-cartoon-avatar" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="work">
+                <div class="work container reveal">
+                    <div class="work-info">
+                        <h2 class="section-title">Things I've Built.</h2>
+                        <p class="section-paragraph">
+                            Here's a selection of my hobby creations for brushing up my skills. For more, kindly check
+                            out my<a href="https://github.com/Sachin-Prasad-29" class="no-select" target="_blank"
+                                ><b class="link-tag"><i class="fa-solid fa-link"></i>Github</b></a
+                            >
+                        </p>
+                    </div>
+                    <div class="work-details">
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/calendar.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Calendar and Events</h2>
+                            <p>A Calendar app using to create events,tasks & reminder with friends </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Vue Js</li>
+                                <li>Vuetify</li>
+                                <li>Node js</li>
+                                <li>MongoDb</li>
+                                <li>Express</li>
+                            </ul>
+                            <a
+                                class="link-tag"
+                                href="https://github.com/Sachin-Prasad-29/calendar-and-events-app"
+                                target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://calendar-and-events.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/meeting.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Meeting Application</h2>
+                            <p>A Meeting Application used to create meeting with other members and teams.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Vue js</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/Meetings-Applications" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://meeting-application-29.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/gamestore.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Game Store</h2>
+                            <p>A static page for the game store build for the landing page.Which showcase Different games.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/Game-Store" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://game-store-29.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/grocery.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Grocery Bud</h2>
+                            <p>A simple React Grocery bud application created using react hooks, can be used to write grocery list.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>React js</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/10-Grocery-Bud" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://grocery-bud-react-js.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/colorpicker.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Color Picker</h2>
+                            <p>
+                                A simple Application used to find the different shades of searched color using Value js
+                                library.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>React js</li>
+                                <li>Value js library</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/09-Color-Shades-Generator" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://colorpicker-react.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/project-man.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Project Manager</h2>
+                            <p>
+                                A Frontend Project built using Vuetify Ui library which can be used to show the team
+                                list and project lists.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Vue js</li>
+                                <li>Vuetify</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/project-manager" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://project-manager-vue.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/resturant.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Restaurant Page</h2>
+                            <p>
+                                A Frontend Restaurant Project built which shows different menus and items of the
+                                Restaurant.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/Resturant-Website-2" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://basic-resturant-js.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <a href="
+                                ">
+                                <img
+                                src="img/projects/todo-vue.png"
+                                alt=""
+                                style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </a>
+                            </div>
+                            <h2>Todo List 1</h2>
+                            <p>A Simple todo List build using Vue js. User can create, mark as completed and Delete the todo.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Vue js</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/Todos-vue-js-app" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://todo-list-vue-1.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img
+                                    src="img/projects/todo-vuex.png"
+                                    alt=""
+                                    style="width: 300px; border: 1px solid rgba(156, 153, 153, 0.589)"
+                                />
+                            </div>
+                            <h2>Todo List 2</h2>
+                            <p>
+                                A Simple todo List build using Vue js and Vuex which is using to showcase the working of
+                                state Management.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Vue js</li>
+                                <li>Vue X</li>
+                            </ul>
+                            <a class="link-tag" href="https://github.com/Sachin-Prasad-29/todos-vuex-app" target="_blank"
+                                ><i class="fab fa-github"></i>Repo-link</a
+                            >
+
+                            <a class="link-tag" href="https://todo-list-vuex-2.netlify.app" target="_blank"
+                                ><i class="fas fa-external-link-alt"></i>Live-link</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact container reveal">
+                    <div class="contact-info">
+                        <h2 class="section-title">Get In Touch.</h2>
+                        <p class="section-paragraph">
+                            Have an exciting project where we can work together? Or just want to say hi, do send me a
+                            message and let's chat.
+                        </p>
+                    </div>
+                    <div class="contact-forms">
+                        <div class="input-box">
+                            <input type="text" id='full_name' name="name" autocomplete="off" spellcheck="false" required />
+                            <label>Name:</label>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" id='email_id' name="email" autocomplete="off" spellcheck="false" required />
+                            <label>Email:</label>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="message" id="message" cols="30" rows="10" autocomplete="off" required></textarea>
+                            <label>Message:</label>
+                        </div>
+
+                        <div class="btn">
+                            <button class="btn-submit" onClick="(function(){
+                                            
+                                            console.log('Hellow')
+                                            var params = {
+                                                from_name: document.getElementById('full_name').value,
+                                                email_id: document.getElementById('email_id').value,
+                                                message: document.getElementById('message').value,
+                                            };
+                                            emailjs.send('service_kpxk7ih', 'template_wov0i27', params).then(function (res) {
+                                                alert('Successfully sent message!');
+                                            });
+                                        })()">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <div class="footer">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.behance.net/jeremyerikd59f" target="_blank"
+                                ><i class="fab fa-behance fa-lg"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/JeremyL95" target="_blank"
+                                ><i class="fab fa-codepen fa-lg"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JeremyL95" target="_blank"
+                                ><i class="fab fa-github fa-lg"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jeremyerikleong95/" target="_blank"
+                                ><i class="fab fa-linkedin fa-lg"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/JeremyErikLeong" target="_blank"
+                                ><i class="fab fa-twitter fa-lg"></i
+                            ></a>
+                        </li>
+                    </ul>
+                    <p>©<span id="year"></span> Jeremy Erik Leong</p>
+                </div>
+            </footer>
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
