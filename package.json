@@ -1,5 +1,5 @@
 {
-  "name": "jeremy",
+  "name": "sachin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html"
   },
   "keywords": [],
-  "author": "Jeremy",
+  "author": "Sachin",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
